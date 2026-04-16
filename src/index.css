@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", "Courier New", monospace;
+  
+  --color-bento-bg: #080808;
+  --color-bento-card: #121212;
+  --color-bento-border: #222222;
+  --color-bento-text: #E0E0E0;
+  --color-bento-dim: #777777;
+  
+  --color-rat: #00FF9C;
+  --color-ransom: #FF3E3E;
+  --color-virus: #FFD700;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bento-bg);
+    color: var(--color-bento-text);
+  }
+}
+
+.bento-card {
+  background: var(--color-bento-card);
+  border: 1px solid var(--color-bento-border);
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--color-bento-dim);
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.card-label span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-bento-border);
+}
+
+.terminal-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #333;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Malware Research & Defense Dashboard",
+  "description": "An educational dashboard explaining the mechanics of RATs, Ransomware, and Viruses, focusing on defensive strategies and theoretical understanding.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
